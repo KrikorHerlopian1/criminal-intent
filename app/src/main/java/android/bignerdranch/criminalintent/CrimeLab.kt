@@ -11,13 +11,13 @@ object CrimeLab {
         crimeLab ?: CrimeLab(context)
 
     private operator fun invoke(context: Context?): CrimeLab? {
-        for(i in  0 until 100){
+        /*for(i in  0 until 100){
             var crime = Crime()
             val c = Crime()
             c.title = String.format("Crime #%d", i)
             c.isSolved = (i % 2 == 0)
             crimes.add(c)
-        }
+        }*/
         crimeLab = this
         return crimeLab
     }
@@ -32,5 +32,9 @@ object CrimeLab {
                 return crime
         }
         return null
+    }
+
+    fun addCrime(c: Crime){
+        crimes.add(c)
     }
 }

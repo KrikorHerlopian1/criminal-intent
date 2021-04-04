@@ -10,14 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0461a80-e81a-4b76-af6d-a32a7fb4daf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/DatePickerFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_date.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/fragment_crime_list.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/Crime.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/Crime.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/CrimeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/CrimeFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/CrimePagerActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/CrimePagerActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/CrimeLab.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/CrimeLab.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/CrimeListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/CrimeListFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +23,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_XL_API_30" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_XL_API_30" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -46,6 +44,7 @@
         <option value="Kotlin Interface" />
         <option value="layoutResourceFile" />
         <option value="Kotlin Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -62,7 +61,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="memory.settings.postsync.last.time.stamp" value="1617476864288" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1617565120446" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -163,13 +162,17 @@
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state width="1472" height="253" key="GridCell.Tab.0.right/0.25.1680.961@0.25.1680.961" timestamp="1617245339209" />
-    <state x="445" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1617495382631">
+    <state x="139" y="125" width="1314" height="753" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1617565765800">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
-    <state x="445" y="329" key="com.intellij.ide.util.TipDialog/0.25.1680.961@0.25.1680.961" timestamp="1617495382631" />
-    <state x="461" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1616980133990">
+    <state x="139" y="125" width="1314" height="753" key="com.android.tools.idea.avdmanager.AvdListDialog/0.25.1680.961@0.25.1680.961" timestamp="1617565765800" />
+    <state x="445" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1617565117779">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
-    <state x="461" y="234" width="670" height="676" key="search.everywhere.popup/0.25.1680.961@0.25.1680.961" timestamp="1616980133990" />
+    <state x="445" y="329" key="com.intellij.ide.util.TipDialog/0.25.1680.961@0.25.1680.961" timestamp="1617565117779" />
+    <state x="461" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1617566021090">
+      <screen x="0" y="25" width="1680" height="961" />
+    </state>
+    <state x="461" y="234" width="670" height="676" key="search.everywhere.popup/0.25.1680.961@0.25.1680.961" timestamp="1617566021090" />
   </component>
 </project>
