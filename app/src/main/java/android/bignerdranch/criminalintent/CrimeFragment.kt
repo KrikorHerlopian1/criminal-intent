@@ -1,5 +1,7 @@
 package android.bignerdranch.criminalintent
 
+import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -14,7 +16,9 @@ import java.util.*
 
 class CrimeFragment: Fragment() {
     companion object{
-        val ARG_CRIME_ID = "com.bignerdranch.android.criminalintent.crime_id"
+        const val ARG_CRIME_ID = "com.bignerdranch.android.criminalintent.crime_id"
+        const val DIALOG_DATE = "DialogDate"
+        const val REQUEST_DATE = 0
         fun newInstance(crimeID: UUID): CrimeFragment {
             val args = Bundle()
             args.putSerializable(ARG_CRIME_ID, crimeID)
@@ -60,7 +64,31 @@ class CrimeFragment: Fragment() {
 
         view.crime_date.text = mCrime?.date.toString()
         view.crime_title.setText(mCrime?.title)
-        view.crime_date.setEnabled(mCrime?.isSolved ?: false)
+        //view.crime_date.setEnabled(mCrime?.isSolved ?: false)
+        view.crime_date.setOnClickListener {
+            fragmentManager?.let {
+                var dialog = mCrime?.date?.let {
+                        it1 -> DatePickerFragment.newInstance(it1)
+                }
+                dialog?.setTargetFragment(this@CrimeFragment, REQUEST_DATE)
+                dialog?.show(fragmentManager!!, DIALOG_DATE)
+            }
+        }
         return view
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        if(Activity.RESULT_OK == resultCode){
+            if(requestCode == REQUEST_DATE){
+                var date = data?.getSerializableExtra(DatePickerFragment.EXTRA_DATE) as Date?
+                date?.let {
+                    mCrime?.date = it
+                    updateDate(it)
+                }
+            }
+        }
+    }
+    private fun updateDate(date: Date){
+        view?.crime_date?.text = date.toString()
     }
 }

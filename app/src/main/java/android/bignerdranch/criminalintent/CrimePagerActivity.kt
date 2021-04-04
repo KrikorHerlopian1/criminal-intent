@@ -34,7 +34,7 @@ class CrimePagerActivity: AppCompatActivity() {
 
         mCrimes?.let {
             var value = 0
-            for(crime in mCrimes!!){
+            for(crime in it){
                 if(crime.id == crimeId)
                 {
                     crime_view_pager.currentItem = value

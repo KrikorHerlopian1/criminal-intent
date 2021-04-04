@@ -9,7 +9,17 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0461a80-e81a-4b76-af6d-a32a7fb4daf4" name="Default Changelist" comment="" />
+    <list default="true" id="b0461a80-e81a-4b76-af6d-a32a7fb4daf4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/DatePickerFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_date.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/Crime.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/Crime.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/CrimeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/CrimeFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/CrimePagerActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/android/bignerdranch/criminalintent/CrimePagerActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,12 +44,16 @@
         <option value="Kotlin Data Class" />
         <option value="Kotlin Object" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1qOfOz5CpqjViHKEQgUQhDgcs33" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -124,9 +138,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="559" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1617062300669">
-      <screen x="0" y="25" width="1680" height="961" />
+    <state x="559" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1617497960955">
+      <screen x="0" y="25" width="1680" height="959" />
     </state>
+    <state x="559" y="221" key="#com.intellij.ide.util.MemberChooser/0.25.1680.959@0.25.1680.959" timestamp="1617497960955" />
     <state x="559" y="221" key="#com.intellij.ide.util.MemberChooser/0.25.1680.961@0.25.1680.961" timestamp="1617062300669" />
     <state x="384" y="260" key="AndroidCreateResourceFileDialog" timestamp="1617244547835">
       <screen x="0" y="25" width="1680" height="961" />
@@ -148,10 +163,10 @@
       <screen x="0" y="25" width="1680" height="961" />
     </state>
     <state width="1472" height="253" key="GridCell.Tab.0.right/0.25.1680.961@0.25.1680.961" timestamp="1617245339209" />
-    <state x="445" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1617244412265">
+    <state x="445" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1617495382631">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
-    <state x="445" y="329" key="com.intellij.ide.util.TipDialog/0.25.1680.961@0.25.1680.961" timestamp="1617244412265" />
+    <state x="445" y="329" key="com.intellij.ide.util.TipDialog/0.25.1680.961@0.25.1680.961" timestamp="1617495382631" />
     <state x="461" y="234" width="670" height="676" key="search.everywhere.popup" timestamp="1616980133990">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
